@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+:root {
+    --almond: #ede0d4ff;
+    --dun: #e6ccb2ff;
+    --tan: #ddb892ff;
+    --chamoisee: #b08968ff;
+    --coffee: #7f5539ff;
+    --font-primaria: "Jacquard 12", system-ui;
+    --font-secundaria:  "UnifrakturMaguntia", cursive;
+    }
+    
