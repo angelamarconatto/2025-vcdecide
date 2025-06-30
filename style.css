@@ -15,3 +15,49 @@
     --font-primaria: "Jacquard 12", system-ui;
     --font-secundaria: "UnifrakturMaguntia", cursive;
 }
+
+body {
+    background-color: var(--coffee);
+    color: var(--almond);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--font-primaria);
+}
+
+.caixa-principal {
+    background-color: var(--dun);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    /* border-radius removido */
+}
+
+.titulo {
+    color: var(--tan);
+    font-family: var(--font-secundaria);
+}
+
+.caixa-alternativas button {
+    background-color: var(--tan);
+    color: var(--coffee);
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    /* border-radius removido */
+}
+
+.caixa-alternativas button:hover {
+    background-color: var(--chamoisee);
+    color: white;
+}
+
+.caixa-resultado {
+    margin-top: 20px;
+    display: none;
+}
